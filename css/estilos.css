@@ -1,0 +1,130 @@
+
+/*-- header --*/
+
+.navbar {
+  margin-bottom:0;
+  
+} 
+
+.jumbotron {
+	background:#19DBCC;
+	color:#fff;
+	padding:5px;
+	margin-bottom:0;  
+}
+
+.container{
+	padding:5px;
+}
+.container-form{
+	margin: 0 auto;
+	width: 500px;
+	height: 400px;
+	background: #C2F9F0;
+	padding:30px;
+	border:10px solid white;
+}
+.container-result{
+	margin: 0 auto;
+	width: 500px;
+	height: 850px;
+	background: #C2F9F0;
+	padding:30px;
+	border:10px solid white;
+}
+.form-control{
+	width: 300px;
+}
+
+
+.main {
+	margin-left:30;
+	margin-right:30;
+	padding:0px;	
+	}
+	
+.post{
+	padding:20px;
+	}
+.col-md-12{
+	margin-left:30;
+	margin-right:30;
+	margin-bottom:30;	
+	}
+#main-wrapper{	
+    /*--    padding: 2.25em 0 2.25em 0;
+		box-shadow: inset 0px 10px 80px 0px rgba(0,0,0,0.2);
+		/*--background: url(../images/green_leaf-01.jpg);
+		position:relative;--*/
+	}
+	
+.subpage
+	{
+		padding-top: 4em !important;
+	}
+	
+/*formulario*/
+#container-form {
+	
+	width: 600px;
+	margin: 0 auto;
+	height: 400px;
+	background: #64F9AE;
+	border: 1px solid white;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 20px;
+	
+}
+
+#Calculos {	
+	padding: 1em;		
+}
+
+#Calculos fieldset {
+	
+	width: 400px;
+	padding: 0 0 0 0;
+	border: 0;
+	
+}
+
+#Calculos label {
+	
+	display: block;
+	padding: 5px 0 5px 0;
+	
+}
+
+#Calculos input[type=text], textarea {
+	
+	padding: 10px 0 10px 0;
+	border: 1.5px solid black;
+	color: #050505;
+	font-family: inherit;
+	font-size: inherit;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 3px;
+	
+}
+
+#Calculos input[type=text]:focus, textarea:focus {	
+	background: #FCFCFC;	
+}
+
+#Calculos input[type=submit] {	
+	border: none;
+	margin-right: 1em;
+	padding: 6px;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	-moz-border-radius: 4px;
+	background: #348075;
+	color: white;
+	width: 90px;		
+}
+
+#Calculos input[type=submit]:hover {
+	background: #287368;
+	cursor: pointer;
+}	

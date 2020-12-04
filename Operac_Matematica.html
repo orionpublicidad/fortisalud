@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>FortiSalud-Operaciones</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">	
+</head>
+
+<body>
+<header>
+ <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+
+   <div class= "container">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target= "#navigation-fm">
+             <span class="sr-only">desplegar / ocultar menú</span>
+             <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+           </button>
+           <a href="index.html" class="navbar-brand">Inicio</a>
+       </div>
+      <!--Inicia  menu-->
+      <div class="collapse navbar-collapse" id="navigation-fm"> 
+         <ul class=" nav navbar-nav">
+      	      <li><a href="#">Administrador</a></li> 
+      	      <li><a href="Ingreso_Hojas_Vida.html">Ingreso Hojas de Vida</a></li>
+      	      <li><a href="Consultas_HV.html">Consultas</a></li>
+      	      <li><a href="#">Actualización</a></li>
+      	      <!--submenu-->
+      	        <li class="dropdown">
+      	      	 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Reportes <span class="caret"></span></a>
+      	      	   <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">especiales</a></li>
+                      <li><a href="#">dinamicas</a></li>
+                   </ul> 
+      	        </li>
+      	      <!--fin submenu-->
+      	      <li class="active"><a href="Operac_Matematica.html">Operaciones Matemáticas</a></li>
+         </ul>
+         <!--search -->
+      	 <form action="" class="navbar-form navbar-right" role="search">
+      	 <div class="form-group">
+      	     <input type="text" class="form-control" placeholder="Buscar">
+      	 </div>
+      	   <button type="submit" class="btn btn-primary">
+      	   	 <span class="glyphicon glyphicon-search"></span>
+      	   </button>
+      	 </form>     
+         <!--fin del search -->
+      </div>
+      <!--fin menu-->
+   </div>
+ </nav>	
+</header> 
+<!--aqui va el jumbotron --> 
+<section class="jumbotron">
+	<div class="container">
+    <h2>GESTIÓN DE HOJAS DE VIDA PARA EL PERSONAL DEL HOSPITAL </h2>
+    <h1><a href="index.html"><img src="imagenes/LOGO.png" alt="" width="128" height="103" />  
+     </a><strong>FORTISALUD</strong>
+    </h1>
+    <p>Tu Salud Nuestra razón de Ser</p>
+  </div>
+</section>
+<!-- fin jumbotron -->
+                          
+<div class="container">
+
+ <div class="container-form">
+  <h2>Operaciones Matemáticos</h2>
+  <p></p>
+  <form method="post" action="php/regt_resultado.php"> 
+  <p>Por Favor Seleccionar las siguientes Opciones:</p> 
+  <p> <label for="suma">
+      <input name="suma" id="suma" type="checkbox" value="">Suma </label>
+      <label for="resta">
+      <input name="resta"id="resta"  type="checkbox" value="">Resta</label>
+      <label for="multiplicacion">
+      <input name="multiplicacion" id="multiplicacion"  type="checkbox" value="">Mutiplicación</label>
+      <label for="division">
+      <input name="division" id="division" type="checkbox" value="">División</label>
+  <p> </p>
+  <div class="form-group">
+      <label for="number1"> Ingrese el Primer Número:</label>
+      <input name="number1" class="form-control" id="number1" type="number">
+    </div>
+    <div class="form-group">
+      <label for="number2">Ingrese el Segundo Número:</label>
+      <input name="number2" class="form-control" id="number2" type="number">
+    </div>
+
+  <button type="submit" class="btn btn-primary" name="submit" id="submit">CALCULAR</button>
+  <p>&nbsp;</p>
+  </form>
+       
+  
+  </div>      
+</div>
+
+
+
+    
+ <!-- -->  
+</body>
+</html>
